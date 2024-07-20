@@ -1,0 +1,168 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="803.2,1654.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="512,1589.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:RepeatNumberOfTimesX DisplayName="Repeat Number of Times" sap:VirtualizedContainerService.HintSize="449.6,304" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_2" NumberOfTimes="10" StartAt="1">
+      <ui:RepeatNumberOfTimesX.Body>
+        <ActivityAction x:TypeArguments="x:Int32">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,104.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </Sequence>
+        </ActivityAction>
+      </ui:RepeatNumberOfTimesX.Body>
+    </ui:RepeatNumberOfTimesX>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Spotify Free" sap:VirtualizedContainerService.HintSize="449.6,1196.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="cf50840c-590e-4c46-bcb2-2f13e1c06205" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,882.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'push button'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cf50840c-590e-4c46-bcb2-2f13e1c06205" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="20, 542, 412, 81" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Spotify - Web Player: Music for everyone' role='document' /&gt;&lt;ctrl name='Main' role='grouping' /&gt;&lt;ctrl name='Your Library' role='list' /&gt;&lt;ctrl name='Anirudh Ravichander' role='grouping' /&gt;&lt;ctrl name='Anirudh Ravichander Artist' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Spotify - Web Player: Music for everyone' role='document' /&gt;&lt;ctrl name='Main' role='grouping' /&gt;&lt;ctrl name='Your Library' role='list' /&gt;&lt;ctrl name='Anirudh Ravichander' role='grouping' /&gt;&lt;ctrl name='Anirudh Ravichander Artist' role='push button' automationid='' /&gt;" Guid="1f426bc3-6c78-41d7-bab2-c17e590fd635" InformativeScreenshot="183786632fb3df12a13bc3bc4b60a037.png" ScopeSelectorArgument="&lt;wnd app='spotify.exe' appid='SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify' title='Spotify Free' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'push button Play'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cf50840c-590e-4c46-bcb2-2f13e1c06205" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="c75b6326-f8b0-4ce2-b528-87809e63aef9" CvElementArea="476, 482, 79, 78" CvType="Icon" DesignTimeRectangle="481, 488, 71, 70" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Anirudh Ravichander | Spotify' role='document' /&gt;&lt;ctrl name='Play' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Anirudh Ravichander | Spotify' role='document' /&gt;&lt;ctrl name='Play' role='push button' automationid='' /&gt;" Guid="c8d6563f-9d1c-4504-b50f-2c49eca914c1" ImageBase64="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" InformativeScreenshot="292a28825c90a26ee654ae04114ee6de.png" ScopeSelectorArgument="&lt;wnd app='spotify.exe' appid='SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify' title='Spotify Free' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="353.6,122.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'push button'" sap:VirtualizedContainerService.HintSize="353.6,218.4" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cf50840c-590e-4c46-bcb2-2f13e1c06205" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="c75b6326-f8b0-4ce2-b528-87809e63aef9" CvElementArea="1879, 7, 23, 23" CvType="CloseButton" DesignTimeRectangle="1863, 0, 57, 39" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Spotify Free' role='pane' /&gt;&lt;ctrl idx='3' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Spotify Free' role='pane' /&gt;&lt;ctrl automationid='' role='push button' /&gt;" Guid="4de2f8d7-38c9-4243-b193-136e59bb1d86" InformativeScreenshot="ee7e3258af38c30eda8f350858fbc1d5.png" ScopeSelectorArgument="&lt;wnd app='spotify.exe' appid='SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify' title='Spotify Free' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 1920, 1020" FilePath="SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify" IconBase64="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" InformativeScreenshot="fcb4ce15b2af1078ca26ec486f10708d.png" Selector="&lt;wnd app='spotify.exe' appid='SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify' title='Spotify Free' /&gt;" Title="Spotify Free" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
